@@ -1,0 +1,13 @@
+{
+  "artboards": [
+    { "file": "Main.dc.html", "title": "Home", "x": 0, "y": 0, "w": 1440, "h": 3260 },
+    { "file": "Consulting.dc.html", "title": "Consulting", "x": 1560, "y": 0, "w": 1440, "h": 3560 },
+    { "file": "Education.dc.html", "title": "Education", "x": 3120, "y": 0, "w": 1440, "h": 2500 },
+    { "file": "Contact.dc.html", "title": "Contact", "x": 4680, "y": 0, "w": 1440, "h": 1550 },
+    { "file": "Mobile.dc.html", "title": "Home · Mobile", "x": 6240, "y": 0, "w": 390, "h": 3720 }
+  ],
+  "annotations": [
+    { "id": "site-notes", "x": 0, "y": -260, "w": 360, "text": "Shyft.dev marketing site — dark-first, brand black + orange #FF8231.\nType: Chakra Petch / Archivo / IBM Plex Mono.\n\nAll copy is a draft — click any text to rewrite it in your voice." }
+  ],
+  "launch": { "view": "canvas" }
+}

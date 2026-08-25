@@ -1,0 +1,183 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&amp;family=Archivo:wght@400;500;600&amp;family=IBM+Plex+Mono:wght@400;500&amp;display=swap">
+  <style>
+    body { margin: 0; background: #0D0B09; font-family: Archivo, 'Helvetica Neue', Arial, sans-serif; color: #F2EDE6; -webkit-font-smoothing: antialiased; }
+    * { box-sizing: border-box; }
+    a { color: #FF8231; text-decoration: none; }
+    a:hover { color: #FFA05C; }
+  </style>
+</helmet>
+<div style="width: 1440px; background: #0D0B09; display: flex; flex-direction: column;">
+
+  <!-- NAV -->
+  <div style="display: flex; align-items: center; justify-content: space-between; height: 84px; padding: 0 64px; border-bottom: 1px solid rgba(242,237,230,0.08);">
+    <img src="logo-h-white.png" alt="Shyft" style="height: 30px; width: auto; display: block;">
+    <div style="display: flex; align-items: center; gap: 44px;">
+      <div style="font-family: 'IBM Plex Mono', Menlo, monospace; font-size: 13px; letter-spacing: 0.1em; color: #FF8231; border-bottom: 1px solid #FF8231; padding-bottom: 2px;">CONSULTING</div>
+      <div style="font-family: 'IBM Plex Mono', Menlo, monospace; font-size: 13px; letter-spacing: 0.1em; color: #A9A199;">EDUCATION</div>
+      <div style="font-family: 'IBM Plex Mono', Menlo, monospace; font-size: 13px; letter-spacing: 0.1em; color: #A9A199;">CONTACT</div>
+      <div style="display: flex; align-items: center; justify-content: center; height: 44px; padding: 0 24px; background: #FF8231; color: #0D0B09; font-family: 'Chakra Petch', 'Avenir Next', 'Trebuchet MS', sans-serif; font-weight: 600; font-size: 14px; letter-spacing: 0.05em; clip-path: polygon(0 0, calc(100% - 12px) 0, 100% 12px, 100% 100%, 0 100%);">BOOK AN INTRO CALL</div>
+    </div>
+  </div>
+
+  <!-- PAGE HERO -->
+  <div style="position: relative; overflow: hidden; display: flex; flex-direction: column; gap: 24px; padding: 96px 64px;">
+    <img src="mark-white.png" alt="" style="position: absolute; right: -80px; top: -120px; width: 520px; opacity: 0.04; display: block;">
+    <div style="position: relative; display: flex; align-items: center; gap: 10px;">
+      <svg width="12" height="12" viewBox="0 0 12 12" style="display: block;"><path d="M0 0 L12 0 L0 12 Z" fill="#FF8231"></path></svg>
+      <div style="font-family: 'IBM Plex Mono', Menlo, monospace; font-size: 13px; letter-spacing: 0.16em; color: #FF8231;">CONSULTING</div>
+    </div>
+    <div style="position: relative; font-family: 'Chakra Petch', 'Avenir Next', 'Trebuchet MS', sans-serif; font-weight: 600; font-size: 56px; line-height: 1.06; color: #F2EDE6; max-width: 900px;">Agent-first, end to end.</div>
+    <div style="position: relative; font-size: 18px; line-height: 1.65; color: #A9A199; max-width: 660px;">From the first process map to a production system your team owns. We don&#39;t sell decks &mdash; we ship working pipelines, and leave behind a team that can run them.</div>
+  </div>
+
+  <!-- OFFERINGS -->
+  <div style="display: flex; flex-direction: column; gap: 48px; padding: 96px 64px; border-top: 1px solid rgba(242,237,230,0.08);">
+    <div style="display: flex; flex-direction: column; gap: 16px;">
+      <div style="display: flex; align-items: center; gap: 10px;">
+        <svg width="12" height="12" viewBox="0 0 12 12" style="display: block;"><path d="M0 0 L12 0 L0 12 Z" fill="#FF8231"></path></svg>
+        <div style="font-family: 'IBM Plex Mono', Menlo, monospace; font-size: 13px; letter-spacing: 0.16em; color: #FF8231;">WHAT WE TAKE ON</div>
+      </div>
+      <div style="font-family: 'Chakra Petch', 'Avenir Next', 'Trebuchet MS', sans-serif; font-weight: 600; font-size: 42px; line-height: 1.1; color: #F2EDE6;">Four kinds of work.</div>
+    </div>
+    <div style="display: flex; flex-direction: column;">
+      <div style="display: grid; grid-template-columns: 120px 380px minmax(0, 1fr); gap: 32px; padding: 36px 0; border-top: 1px solid rgba(242,237,230,0.1);">
+        <div style="font-family: 'IBM Plex Mono', Menlo, monospace; font-size: 15px; color: #FF8231;">01</div>
+        <div style="font-family: 'Chakra Petch', 'Avenir Next', 'Trebuchet MS', sans-serif; font-weight: 600; font-size: 24px; line-height: 1.25; color: #F2EDE6;">Agentic workflow design</div>
+        <div style="font-size: 16px; line-height: 1.65; color: #A9A199;">We map a process end to end, then redesign it agent-first: which agents do what, where handoffs happen, and where a human signs off. You get a blueprint you could hand to any builder &mdash; including us.</div>
+      </div>
+      <div style="display: grid; grid-template-columns: 120px 380px minmax(0, 1fr); gap: 32px; padding: 36px 0; border-top: 1px solid rgba(242,237,230,0.1);">
+        <div style="font-family: 'IBM Plex Mono', Menlo, monospace; font-size: 15px; color: #FF8231;">02</div>
+        <div style="font-family: 'Chakra Petch', 'Avenir Next', 'Trebuchet MS', sans-serif; font-weight: 600; font-size: 24px; line-height: 1.25; color: #F2EDE6;">Agent orchestration</div>
+        <div style="font-size: 16px; line-height: 1.65; color: #A9A199;">Multi-agent pipelines with real engineering behind them: tool design, context management, state, retries, failure handling &mdash; and evals that tell you it&#39;s actually working.</div>
+      </div>
+      <div style="display: grid; grid-template-columns: 120px 380px minmax(0, 1fr); gap: 32px; padding: 36px 0; border-top: 1px solid rgba(242,237,230,0.1);">
+        <div style="font-family: 'IBM Plex Mono', Menlo, monospace; font-size: 15px; color: #FF8231;">03</div>
+        <div style="font-family: 'Chakra Petch', 'Avenir Next', 'Trebuchet MS', sans-serif; font-weight: 600; font-size: 24px; line-height: 1.25; color: #F2EDE6;">Build &amp; integration</div>
+        <div style="font-size: 16px; line-height: 1.65; color: #A9A199;">Wiring agents into the stack you already have &mdash; APIs, data, permissions, observability &mdash; so the system runs in your world, not in a demo.</div>
+      </div>
+      <div style="display: grid; grid-template-columns: 120px 380px minmax(0, 1fr); gap: 32px; padding: 36px 0; border-top: 1px solid rgba(242,237,230,0.1); border-bottom: 1px solid rgba(242,237,230,0.1);">
+        <div style="font-family: 'IBM Plex Mono', Menlo, monospace; font-size: 15px; color: #FF8231;">04</div>
+        <div style="font-family: 'Chakra Petch', 'Avenir Next', 'Trebuchet MS', sans-serif; font-weight: 600; font-size: 24px; line-height: 1.25; color: #F2EDE6;">Enablement &amp; handover</div>
+        <div style="font-size: 16px; line-height: 1.65; color: #A9A199;">Playbooks, docs, and hands-on training. We&#39;re done when your team extends the system without calling us.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- PRINCIPLES -->
+  <div style="display: flex; flex-direction: column; gap: 56px; padding: 96px 64px; border-top: 1px solid rgba(242,237,230,0.08);">
+    <div style="display: flex; flex-direction: column; gap: 16px;">
+      <div style="display: flex; align-items: center; gap: 10px;">
+        <svg width="12" height="12" viewBox="0 0 12 12" style="display: block;"><path d="M0 0 L12 0 L0 12 Z" fill="#FF8231"></path></svg>
+        <div style="font-family: 'IBM Plex Mono', Menlo, monospace; font-size: 13px; letter-spacing: 0.16em; color: #FF8231;">HOW WE WORK</div>
+      </div>
+      <div style="font-family: 'Chakra Petch', 'Avenir Next', 'Trebuchet MS', sans-serif; font-weight: 600; font-size: 42px; line-height: 1.1; color: #F2EDE6;">Opinionated, and honest about it.</div>
+    </div>
+    <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px;">
+      <div style="display: flex; flex-direction: column; gap: 14px; padding: 36px 32px; background: #14110D; border: 1px solid rgba(242,237,230,0.08); clip-path: polygon(0 0, calc(100% - 18px) 0, 100% 18px, 100% 100%, 0 100%);">
+        <div style="font-family: 'Chakra Petch', 'Avenir Next', 'Trebuchet MS', sans-serif; font-weight: 600; font-size: 21px; color: #F2EDE6;">Ship in weeks</div>
+        <div style="font-size: 15px; line-height: 1.65; color: #A9A199;">A pilot in production beats a quarter of strategy. We bias to working software early &mdash; then improve it where it runs.</div>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 14px; padding: 36px 32px; background: #14110D; border: 1px solid rgba(242,237,230,0.08); clip-path: polygon(0 0, calc(100% - 18px) 0, 100% 18px, 100% 100%, 0 100%);">
+        <div style="font-family: 'Chakra Petch', 'Avenir Next', 'Trebuchet MS', sans-serif; font-weight: 600; font-size: 21px; color: #F2EDE6;">Humans on judgment</div>
+        <div style="font-size: 15px; line-height: 1.65; color: #A9A199;">Agents carry the repetitive load. Decisions with consequences keep a person in the loop &mdash; by design, not by accident.</div>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 14px; padding: 36px 32px; background: #14110D; border: 1px solid rgba(242,237,230,0.08); clip-path: polygon(0 0, calc(100% - 18px) 0, 100% 18px, 100% 100%, 0 100%);">
+        <div style="font-family: 'Chakra Petch', 'Avenir Next', 'Trebuchet MS', sans-serif; font-weight: 600; font-size: 21px; color: #F2EDE6;">Everything observable</div>
+        <div style="font-size: 15px; line-height: 1.65; color: #A9A199;">If you can&#39;t see what an agent did and why, you can&#39;t trust it. Logging and evals are part of the build, not an add-on.</div>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 14px; padding: 36px 32px; background: #14110D; border: 1px solid rgba(242,237,230,0.08); clip-path: polygon(0 0, calc(100% - 18px) 0, 100% 18px, 100% 100%, 0 100%);">
+        <div style="font-family: 'Chakra Petch', 'Avenir Next', 'Trebuchet MS', sans-serif; font-weight: 600; font-size: 21px; color: #F2EDE6;">Built to hand over</div>
+        <div style="font-size: 15px; line-height: 1.65; color: #A9A199;">Every engagement ends with your team owning the system. Dependence on us is a bug, not a business model.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- THE PILOT -->
+  <div style="display: flex; gap: 72px; padding: 96px 64px; border-top: 1px solid rgba(242,237,230,0.08);">
+    <div style="display: flex; flex-direction: column; gap: 24px; width: 560px; flex-shrink: 0;">
+      <div style="display: flex; align-items: center; gap: 10px;">
+        <svg width="12" height="12" viewBox="0 0 12 12" style="display: block;"><path d="M0 0 L12 0 L0 12 Z" fill="#FF8231"></path></svg>
+        <div style="font-family: 'IBM Plex Mono', Menlo, monospace; font-size: 13px; letter-spacing: 0.16em; color: #FF8231;">THE PILOT</div>
+      </div>
+      <div style="font-family: 'Chakra Petch', 'Avenir Next', 'Trebuchet MS', sans-serif; font-weight: 600; font-size: 42px; line-height: 1.1; color: #F2EDE6;">What a first engagement includes.</div>
+      <div style="font-size: 16px; line-height: 1.65; color: #A9A199;">We start with one workflow that&#39;s painful, frequent, and measurable &mdash; and take it all the way to production.</div>
+    </div>
+    <div style="display: flex; flex-direction: column; gap: 0; flex-grow: 1; padding-top: 8px;">
+      <div style="display: flex; align-items: center; gap: 16px; padding: 20px 0; border-bottom: 1px solid rgba(242,237,230,0.1);">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" style="display: block; flex-shrink: 0;"><path d="M3 11 L8 16 L17 5" stroke="#FF8231" stroke-width="2"></path></svg>
+        <div style="font-size: 16px; color: #F2EDE6;">Process map &amp; agent blueprint</div>
+      </div>
+      <div style="display: flex; align-items: center; gap: 16px; padding: 20px 0; border-bottom: 1px solid rgba(242,237,230,0.1);">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" style="display: block; flex-shrink: 0;"><path d="M3 11 L8 16 L17 5" stroke="#FF8231" stroke-width="2"></path></svg>
+        <div style="font-size: 16px; color: #F2EDE6;">Working pipeline, in production</div>
+      </div>
+      <div style="display: flex; align-items: center; gap: 16px; padding: 20px 0; border-bottom: 1px solid rgba(242,237,230,0.1);">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" style="display: block; flex-shrink: 0;"><path d="M3 11 L8 16 L17 5" stroke="#FF8231" stroke-width="2"></path></svg>
+        <div style="font-size: 16px; color: #F2EDE6;">Guardrails, logging &amp; an eval suite</div>
+      </div>
+      <div style="display: flex; align-items: center; gap: 16px; padding: 20px 0; border-bottom: 1px solid rgba(242,237,230,0.1);">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" style="display: block; flex-shrink: 0;"><path d="M3 11 L8 16 L17 5" stroke="#FF8231" stroke-width="2"></path></svg>
+        <div style="font-size: 16px; color: #F2EDE6;">Team training on the system</div>
+      </div>
+      <div style="display: flex; align-items: center; gap: 16px; padding: 20px 0;">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" style="display: block; flex-shrink: 0;"><path d="M3 11 L8 16 L17 5" stroke="#FF8231" stroke-width="2"></path></svg>
+        <div style="font-size: 16px; color: #F2EDE6;">Handover docs &amp; playbooks</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CTA BAND -->
+  <div style="position: relative; overflow: hidden; background: #FF8231; padding: 96px 64px;">
+    <img src="mark-dark.png" alt="" style="position: absolute; right: -60px; top: -140px; width: 560px; opacity: 0.1; display: block;">
+    <div style="position: relative; display: flex; align-items: center; justify-content: space-between; gap: 48px;">
+      <div style="display: flex; flex-direction: column; gap: 16px; max-width: 760px;">
+        <div style="font-family: 'Chakra Petch', 'Avenir Next', 'Trebuchet MS', sans-serif; font-weight: 600; font-size: 46px; line-height: 1.08; color: #0D0B09;">Bring us a workflow.</div>
+        <div style="font-size: 17px; line-height: 1.6; color: rgba(13,11,9,0.75);">The painful, frequent, measurable kind. We&#39;ll tell you what an agent-first version looks like &mdash; and whether it&#39;s worth building.</div>
+      </div>
+      <div style="display: flex; align-items: center; gap: 10px; height: 56px; padding: 0 32px; background: #0D0B09; color: #F2EDE6; font-family: 'Chakra Petch', 'Avenir Next', 'Trebuchet MS', sans-serif; font-weight: 600; font-size: 15px; letter-spacing: 0.05em; flex-shrink: 0; clip-path: polygon(0 0, calc(100% - 14px) 0, 100% 14px, 100% 100%, 0 100%);">
+        <span>BOOK AN INTRO CALL</span>
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" style="display: block;"><path d="M2 8 H13 M9 4 L13 8 L9 12" stroke="#FF8231" stroke-width="1.75"></path></svg>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <div style="display: flex; flex-direction: column; gap: 48px; padding: 72px 64px 40px 64px;">
+    <div style="display: flex; justify-content: space-between; gap: 64px;">
+      <div style="display: flex; flex-direction: column; gap: 20px; max-width: 360px;">
+        <img src="logo-h-white.png" alt="Shyft" style="height: 26px; width: auto; display: block; align-self: flex-start;">
+        <div style="font-size: 14px; line-height: 1.6; color: #77706A;">Agent-first consulting &amp; AI education.</div>
+      </div>
+      <div style="display: flex; gap: 96px;">
+        <div style="display: flex; flex-direction: column; gap: 14px;">
+          <div style="font-family: 'IBM Plex Mono', Menlo, monospace; font-size: 11px; letter-spacing: 0.16em; color: #77706A;">PAGES</div>
+          <div style="font-size: 14px; color: #A9A199;">Consulting</div>
+          <div style="font-size: 14px; color: #A9A199;">Education</div>
+          <div style="font-size: 14px; color: #A9A199;">Contact</div>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 14px;">
+          <div style="font-family: 'IBM Plex Mono', Menlo, monospace; font-size: 11px; letter-spacing: 0.16em; color: #77706A;">CONTACT</div>
+          <div style="font-family: 'IBM Plex Mono', Menlo, monospace; font-size: 14px; color: #FF8231;">trenton@shyft.dev</div>
+          <div style="font-size: 14px; color: #A9A199;">shyft.dev</div>
+        </div>
+      </div>
+    </div>
+    <div style="display: flex; justify-content: space-between; padding-top: 24px; border-top: 1px solid rgba(242,237,230,0.08);">
+      <div style="font-family: 'IBM Plex Mono', Menlo, monospace; font-size: 12px; color: #77706A;">&#169; 2026 SHYFT</div>
+      <div style="font-family: 'IBM Plex Mono', Menlo, monospace; font-size: 12px; color: #77706A;">SHYFT.DEV</div>
+    </div>
+  </div>
+
+</div>
+</x-dc>
+</body>
+</html>
