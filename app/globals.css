@@ -4,17 +4,18 @@
   /* Shyft brand — dark-first */
   --color-coal: #0d0b09;
   --color-raised: #14110d;
+  --color-well: #1d1a16;
   --color-ink: #f2ede6;
   --color-bright: #c9c2b9;
   --color-sub: #a9a199;
-  --color-faint: #77706a;
+  --color-faint: #8a8378;
   --color-orange: #ff8231;
   --color-orange-soft: #ffa05c;
 
   /* hairlines at the exact opacities used in the design */
   --color-line: rgba(242, 237, 230, 0.08);
   --color-row: rgba(242, 237, 230, 0.1);
-  --color-field: rgba(242, 237, 230, 0.12);
+  --color-field: rgba(242, 237, 230, 0.38);
   --color-step: rgba(242, 237, 230, 0.14);
 
   --font-display: var(--font-chakra);
