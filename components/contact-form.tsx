@@ -5,7 +5,7 @@ import { sendContactMessage, type ContactActionState } from "@/app/contact/actio
 import { ArrowIcon, CheckIcon, ChevronDownIcon } from "@/components/icons";
 
 const fieldClass =
-  "h-12 w-full border border-field bg-coal px-4 text-[15px] text-ink outline-none placeholder:text-faint focus:border-orange";
+  "h-12 w-full border border-field bg-well px-4 text-[15px] text-ink outline-none placeholder:text-faint focus:border-orange";
 
 const labelClass = "font-mono text-[11px] tracking-[0.16em] text-faint";
 
@@ -21,7 +21,13 @@ export function ContactForm() {
         <h2 className="font-display text-[22px] font-semibold md:text-[26px]">Message sent.</h2>
         <p className="max-w-[420px] text-[15px] leading-relaxed text-sub">
           It lands with a person, not a pipeline. Expect a reply from{" "}
-          <a href="mailto:trenton@shyft.dev">trenton@shyft.dev</a>.
+          <a
+            href="mailto:trenton@shyft.dev"
+            className="font-mono text-orange transition-colors hover:text-orange-soft"
+          >
+            trenton@shyft.dev
+          </a>
+          .
         </p>
       </div>
     );
@@ -70,7 +76,7 @@ export function ContactForm() {
           name="message"
           rows={5}
           placeholder="What are you trying to automate — or learn?"
-          className="w-full resize-none border border-field bg-coal px-4 py-3.5 text-[15px] text-ink outline-none placeholder:text-faint focus:border-orange"
+          className="w-full resize-none border border-field bg-well px-4 py-3.5 text-[15px] text-ink outline-none placeholder:text-faint focus:border-orange"
         />
       </label>
       {/* honeypot — humans never see or fill this */}
