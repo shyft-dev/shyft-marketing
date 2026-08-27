@@ -33,7 +33,7 @@ export function Footer({ bordered = false }: { bordered?: boolean }) {
                 <Link
                   key={href}
                   href={href}
-                  className="text-[13px] text-sub transition-colors hover:text-ink md:text-sm"
+                  className="text-[13px] text-sub underline-offset-4 transition-colors hover:text-ink hover:underline focus-visible:underline md:text-sm"
                 >
                   {label}
                 </Link>
