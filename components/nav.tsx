@@ -35,6 +35,7 @@ export function Nav() {
             <Link
               key={href}
               href={href}
+              aria-current={pathname === href ? "page" : undefined}
               className={`border-b pb-0.5 font-mono text-[13px] tracking-[0.1em] transition-colors ${
                 pathname === href
                   ? "border-orange text-orange"
@@ -72,6 +73,7 @@ export function Nav() {
             <Link
               key={href}
               href={href}
+              aria-current={pathname === href ? "page" : undefined}
               onClick={() => setOpen(false)}
               className={`flex h-11 items-center font-mono text-[13px] tracking-[0.1em] ${
                 pathname === href ? "text-orange" : "text-sub"
