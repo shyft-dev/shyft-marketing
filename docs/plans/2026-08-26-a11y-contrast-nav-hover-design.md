@@ -39,7 +39,9 @@
 
 `--color-faint` fixes in one move: form labels, placeholders, footer tagline,
 copyright, all eyebrow/section labels, and the form microcopy. `--color-field`
-is used only on form fields, so nothing else moves.
+is meant for form fields only. Review found one other consumer: the homepage
+Education-teaser tier cards used `border-field` for a purely decorative border;
+they were switched to `border-line` so those hairlines stay faint.
 
 **Deliberately unchanged:** `--color-line` and `--color-row`. They are
 decorative separators, not interactive component boundaries, so the 3:1 rule

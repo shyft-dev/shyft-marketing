@@ -226,7 +226,7 @@ Run: `bun run dev` (background). Note the port (default 3000).
 
 Use the browser tools (load via ToolSearch per the session instructions) against `http://localhost:3000`:
 
-1. **Homepage `/`** — hover each nav link: light underline + brightened text appears, no layout shift. Footer links underline on hover.
+1. **Homepage `/`** — hover each nav link: light underline + brightened text appears, no layout shift. Footer links underline on hover. In the Education-teaser section, the non-highlight tier card borders still render as faint hairlines (`border-line`), matching the tier cards on `/education` — not the brighter form-field border.
 2. **`/contact`** — the four form fields plus textarea read as visible "wells" (lighter fill, clear border). Labels ("NAME", "WORK EMAIL", …) are readable. Tab through the form: orange focus border is obvious. Tab through the nav: underline appears on focus.
 3. **Active state** — on `/contact`, the CONTACT nav link has the orange underline while hovering a *different* link shows the light underline (the two states must be distinguishable).
 4. **`/consulting` and `/education`** — spot-check eyebrows, section labels, and footer: slightly lighter gray text, nothing broken.

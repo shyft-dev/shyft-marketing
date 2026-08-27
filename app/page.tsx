@@ -158,7 +158,7 @@ export default function Home() {
                 <div
                   key={level}
                   className={`flex flex-col gap-2 border p-6 md:gap-3.5 md:p-8 ${
-                    highlight ? "border-orange" : "border-field"
+                    highlight ? "border-orange" : "border-line"
                   }`}
                 >
                   <div
