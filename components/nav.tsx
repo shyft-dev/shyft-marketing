@@ -35,10 +35,10 @@ export function Nav() {
             <Link
               key={href}
               href={href}
-              className={`font-mono text-[13px] tracking-[0.1em] transition-colors ${
+              className={`border-b pb-0.5 font-mono text-[13px] tracking-[0.1em] transition-colors ${
                 pathname === href
-                  ? "border-b border-orange pb-0.5 text-orange"
-                  : "text-sub hover:text-ink"
+                  ? "border-orange text-orange"
+                  : "border-transparent text-sub hover:border-ink hover:text-ink focus-visible:border-ink focus-visible:text-ink"
               }`}
             >
               {label}
